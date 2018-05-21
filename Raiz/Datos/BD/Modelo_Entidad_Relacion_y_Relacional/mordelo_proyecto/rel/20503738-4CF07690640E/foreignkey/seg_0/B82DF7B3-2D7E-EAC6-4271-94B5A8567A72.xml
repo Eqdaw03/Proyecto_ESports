@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B82DF7B3-2D7E-EAC6-4271-94B5A8567A72" containerWithKeyObject="C34C5DBB-1798-38BF-2699-F9A7DEC2AE6B" localFKIndex="5D982B52-FC71-8874-C45A-BDEEC1C477E0" name="jugador_equipo_FK">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>0336C66E-3A42-1D4B-96CE-EEF5BB66D289</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F9C93504-481C-128B-571A-C7AD56E27B49</referredTableID>
+<keyObject>20AFEC0C-12D0-38BF-B85C-0A97E2A9630B</keyObject>
+<referredKeyID>20AFEC0C-12D0-38BF-B85C-0A97E2A9630B</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
