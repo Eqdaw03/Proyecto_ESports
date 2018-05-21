@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADD4CCD3-8247-6DB4-13EF-8FC79A7B364F" name="usuarios">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>35AA0815-2744-349E-8FF5-51A88727E308</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codUsuario" id="855B8B0A-9D7B-342F-D141-96BFD6B818DD">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>6AD7021F-81A9-EF33-4B7F-FB7A1B65D841</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>C5254677-43A3-415C-07C4-41C3DE848967</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nickname" id="DFD37B78-04D0-8134-38F8-8E6BC652576A">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>1DB2C0A6-0D4E-925E-11DF-D52AE476E4E2</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>569469CB-97FA-CBC2-62A4-9B1320B89756</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="65AA387C-5B34-0DB4-5405-574153BE4736">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>A61262C0-3F8D-0FE0-47A1-6A437F389BDE</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>569469CB-97FA-CBC2-62A4-9B1320B89756</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="86C69688-54CA-9FAE-BF05-87C875DC9D50">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>861A5A43-3F15-0404-135A-4561364E52E8</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>569469CB-97FA-CBC2-62A4-9B1320B89756</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenna" id="8B7A3599-0868-6271-9DF9-8BF383C46220">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>2D1AF86C-A590-D9F6-51E0-6655270F4B27</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>569469CB-97FA-CBC2-62A4-9B1320B89756</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="permiso" id="70E1F61A-0ED1-1B0B-0223-99384BB6EB9B">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>F733EA10-AA7E-D103-FF23-34DAA176EBC5</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>569469CB-97FA-CBC2-62A4-9B1320B89756</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F8B8D02-DA10-89B6-A88D-D46B47C16376" name="usuarios_PK">
+<createdBy>1GDAW03</createdBy>
+<createdTime>2018-05-18 10:33:00 UTC</createdTime>
+<generatorID>C5484598-243F-501F-45E5-EC223F0FEA1D</generatorID>
+<ownerDesignName>mordelo_proyecto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="855B8B0A-9D7B-342F-D141-96BFD6B818DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

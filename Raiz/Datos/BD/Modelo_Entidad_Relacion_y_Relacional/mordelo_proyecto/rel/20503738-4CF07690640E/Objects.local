@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="371B6854-B9AC-EF03-CA4D-E524504CA812" name="Peticion" seqName="seg_0"/>
+   <object objectType="Table" objectID="BF773B8B-4184-14AB-6250-F10E24254089" name="duenno" seqName="seg_0"/>
+   <object objectType="Table" objectID="F9C93504-481C-128B-571A-C7AD56E27B49" name="equipo" seqName="seg_0"/>
+   <object objectType="Table" objectID="E3D354B5-58CC-566E-823A-1965FF757459" name="jornada" seqName="seg_0"/>
+   <object objectType="Table" objectID="C34C5DBB-1798-38BF-2699-F9A7DEC2AE6B" name="jugador" seqName="seg_0"/>
+   <object objectType="Table" objectID="A38FE3F3-C49F-ACEF-1C56-CC60AFE2330A" name="partido" seqName="seg_0"/>
+   <object objectType="Table" objectID="ADD4CCD3-8247-6DB4-13EF-8FC79A7B364F" name="usuarios" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7653BB77-25EC-BF47-CAD9-80798D0FAFE3" name="duenno_equipo_FK" seqName="seg_0" containerID="BF773B8B-4184-14AB-6250-F10E24254089" refContainerID="F9C93504-481C-128B-571A-C7AD56E27B49"/>
+   <object objectType="FKIndexAssociation" objectID="B3D53D3D-9476-864E-BE36-A6D5A8045582" name="duenno_usuarios_FK" seqName="seg_0" containerID="BF773B8B-4184-14AB-6250-F10E24254089" refContainerID="ADD4CCD3-8247-6DB4-13EF-8FC79A7B364F"/>
+   <object objectType="FKIndexAssociation" objectID="B82DF7B3-2D7E-EAC6-4271-94B5A8567A72" name="jugador_equipo_FK" seqName="seg_0" containerID="C34C5DBB-1798-38BF-2699-F9A7DEC2AE6B" refContainerID="F9C93504-481C-128B-571A-C7AD56E27B49"/>
+   <object objectType="FKIndexAssociation" objectID="D9A9511A-4E39-8963-A0DE-BB7D91719596" name="partido_equipo_FK" seqName="seg_0" containerID="A38FE3F3-C49F-ACEF-1C56-CC60AFE2330A" refContainerID="F9C93504-481C-128B-571A-C7AD56E27B49"/>
+   <object objectType="FKIndexAssociation" objectID="24621084-2A1D-BB21-139A-273790A80B6C" name="partido_equipo_FKv1" seqName="seg_0" containerID="A38FE3F3-C49F-ACEF-1C56-CC60AFE2330A" refContainerID="F9C93504-481C-128B-571A-C7AD56E27B49"/>
+   <object objectType="FKIndexAssociation" objectID="39D49197-32EB-A6DC-7F43-FD7FF979DE03" name="partido_jornada_FK" seqName="seg_0" containerID="A38FE3F3-C49F-ACEF-1C56-CC60AFE2330A" refContainerID="E3D354B5-58CC-566E-823A-1965FF757459"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
