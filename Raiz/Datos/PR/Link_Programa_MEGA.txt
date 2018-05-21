@@ -1,3 +1,5 @@
 No hemos podido solucionar el error de github que nos daba al subir la parte de programación, asi que decidimos subir el proyecto a MEGA.
 
-Enlace : https://mega.nz/#!zBBliZZb!yPOOZsrhYaEk6LbRIH157JfOq3LyX1eCWMnIJpArY3A
+Enlace programa netbints : https://mega.nz/#!zBBliZZb!yPOOZsrhYaEk6LbRIH157JfOq3LyX1eCWMnIJpArY3A
+
+Enlace ejecutable : https://mega.nz/#!eNpiBSrR!mNtmhGpONns3t_d0TffbMYQ3AMQVjbHOFmSE_eGz8Hc
