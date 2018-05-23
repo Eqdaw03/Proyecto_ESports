@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE calsificacion 
+        <!ELEMENT calsificacion (Equipo)*>
+        <!ELEMENT Equipo (datosEquipo|resultado)*>
+        <!ELEMENT datosEquipo (codigo|nombre)*>
+        <!ELEMENT codigo (#PCDATA)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT resultado (#PCDATA)>
+        >

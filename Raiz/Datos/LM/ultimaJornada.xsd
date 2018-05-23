@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="UltimaJornada" type="UltimaJornadaType"/>
+
+  <xs:complexType name="partidoType">
+    <xs:sequence>
+      <xs:element name="codigoP">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="41"/>
+            <xs:enumeration value="42"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="fechaP"/>
+
+      <xs:element name="nombreL">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="xdd"/>
+            <xs:enumeration value="dx"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="nombreV">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="juju"/>
+            <xs:enumeration value="jeje"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="resultadoL"/>
+      <xs:element type="xs:string" name="resultadoV"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="jugado" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="datosJornadaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="codigo"/>
+      <xs:element type="xs:string" name="fechaInicio"/>
+      <xs:element type="xs:string" name="fechaFinal"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="JornadaType">
+    <xs:sequence>
+      <xs:element type="datosJornadaType" name="datosJornada"/>
+      <xs:element type="partidosType" name="partidos"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="partidosType">
+    <xs:sequence>
+      <xs:element type="partidoType" name="partido" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="UltimaJornadaType">
+    <xs:sequence>
+      <xs:element type="JornadaType" name="Jornada"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
