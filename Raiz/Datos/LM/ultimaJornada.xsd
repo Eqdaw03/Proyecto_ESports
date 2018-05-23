@@ -4,33 +4,8 @@
 
   <xs:complexType name="partidoType">
     <xs:sequence>
-      <xs:element name="codigoP">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="41"/>
-            <xs:enumeration value="42"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
+      <xs:element type="xs:string" name="codigoP"></xs:element>
       <xs:element type="xs:string" name="fechaP"/>
-
-      <xs:element name="nombreL">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="xdd"/>
-            <xs:enumeration value="dx"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
-
-      <xs:element name="nombreV">
-        <xs:simpleType>
-          <xs:restriction base="xs:string">
-            <xs:enumeration value="juju"/>
-            <xs:enumeration value="jeje"/>
-          </xs:restriction>
-        </xs:simpleType>
-      </xs:element>
       <xs:element type="xs:string" name="resultadoL"/>
       <xs:element type="xs:string" name="resultadoV"/>
     </xs:sequence>
